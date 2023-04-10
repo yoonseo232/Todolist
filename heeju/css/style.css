@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+.title{
+  font-size: 60px;
+  font-style: italic;
+  float: right;
+  margin-right: 60px;
+}
+.toggleSwitch {
+    width: 70px;
+    height: 34px;
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    background-color: #F4D3ED;
+    box-shadow: 0 0 16px 3px rgba(0 0 0 / 15%);
+    cursor: pointer;
+    margin: 30px;
+    content: '\f00d';
+  }
+  
+  .toggleSwitch .toggleButton {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #FFFFFF;
+  }
+  
+  #toggle:checked ~ .toggleSwitch {
+    background: #486DC9;
+  }
+  
+  #toggle:checked ~ .toggleSwitch .toggleButton {
+    left: calc(100% - 31px);
+    background: #fff;
+  }
+  
+  .toggleSwitch, .toggleButton {
+    transition: all 0.3s ease-in;
+  }
