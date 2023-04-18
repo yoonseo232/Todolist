@@ -7,8 +7,41 @@
 .title{
   font-size: 60px;
   font-style: italic;
-  float: right;
+  margin-bottom: -48px;
   margin-right: 60px;
+  margin-top: 60px;
+}
+
+.date{
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.line{
+  margin: 0px 20px 10px 20px;
+  height: 0.5px;
+  background-color: black;
+  border-style: solid;
+  position: relative;
+}
+
+.plus{
+  width: 45px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.divline{
+  border-right: 2px solid;
+  width: 130px;
+  height: 500px;
+  position: absolute;
+}
+.divline2{
+  border-right: 2px solid;
+  width: 630px;
+  height: 500px;
+  position: absolute;
 }
 .toggleSwitch {
     width: 70px;
